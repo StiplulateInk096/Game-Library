@@ -24,7 +24,7 @@ The basic project goes:
 
 "circle" draws the outline of a circle, it takes three arguments:
 
-	x, y, r
+x, y, r
 
 "x" and "y" are is the position of the circle in pixels.
 
@@ -33,3 +33,5 @@ The basic project goes:
 "getSmaller" takes two arguments and returns the lower,
 "getLarger" does the opposite,
 and here it is used to make sure the circle fits on the screen.
+
+This is the basic structure the library follows.
