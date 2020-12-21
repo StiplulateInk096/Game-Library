@@ -1,5 +1,5 @@
 void setup() {
-	setTitle("Gravity");
+	setTitle("Game Template");
 }
 void loop() {
 	
