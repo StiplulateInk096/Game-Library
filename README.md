@@ -18,13 +18,16 @@ The basic project goes:
 		circle(width / 2, height / 2, getSmaller(width, height) / 2);
 	}
 
-"setup" is called in start of the game, "loop" is called once per frame.
+"setup" is called at the start of the game, "loop" is called once per frame.
 
-"setTitle" is given a string and will set the title of the game engine to that.
+"setTitle" is given a string and will set the title of the window to that.
 
 "circle" draws the outline of a circle, it takes three arguments:
+
 	x, y, r
+
 "x" and "y" are is the position of the circle in pixels.
+
 "r" is the radius of the circle.
 
 "getSmaller" takes two arguments and returns the lower,
